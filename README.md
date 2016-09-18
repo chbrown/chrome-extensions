@@ -21,6 +21,11 @@ It works by adding two event listeners for the same event that Google listens to
 It uses the same strategy as the GreaseMonkey plugin [searchlinkfix](https://github.com/palant/searchlinkfix/blob/master/lib/content.js), but is much simpler since it only targets Google.
 
 
+## react-developer-tools-spoof
+
+React.js is great but their non-production library's incessant "Download this extra clunky thing that you don't need" log entry is annoying. This disables that 'better development experience' (LOL) warning, by pretending that you have their extension installed.
+
+
 ## url-cleaner
 
 **URL cleaner**
