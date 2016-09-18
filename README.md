@@ -7,7 +7,7 @@ On OS X, Chrome stores its extensions at:
 The folders in that directory correspond to the IDs listed at [`chrome://extensions`](chrome://extensions/)
 
 
-# google-search-click
+## google-search-click
 
 **Google Search Click Protection**
 
@@ -21,6 +21,18 @@ It works by adding two event listeners for the same event that Google listens to
 It uses the same strategy as the GreaseMonkey plugin [searchlinkfix](https://github.com/palant/searchlinkfix/blob/master/lib/content.js), but is much simpler since it only targets Google.
 
 
+## url-cleaner
+
+**URL cleaner**
+
+Based on [chrome-utm-stripper](https://github.com/jparise/chrome-utm-stripper).
+
+It's a background script that listens for tab [update events](https://developer.chrome.com/extensions/tabs#event-onUpdated) and removes common `utm_*` key-value pairs from the querystring.
+(`utm_*` is what Google Analytics names its various Urchin Tracking Module (UTM) tokens.)
+
+The Google Analytics query string parameters are documented [here](https://support.google.com/analytics/answer/1033867).
+
+
 ## License
 
-Copyright 2015-2016 Christopher Brown. [MIT Licensed](http://chbrown.github.io/licenses/MIT/#2015-2016).
+Copyright 2015-2016 Christopher Brown. [MIT Licensed](https://chbrown.github.io/licenses/MIT/#2015-2016).

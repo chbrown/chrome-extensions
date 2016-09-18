@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "URL cleaner",
+  "version": "0.0.4",
+  "description": "Removes tracking tokens, like Google Analytics's 'utm_*', from URLs",
+  "homepage_url": "https://github.com/chbrown/chrome-extensions",
+  "icons": {
+    "128": "icons/128.png",
+    "48": "icons/48.png",
+    "16": "icons/16.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "offline_enabled": true
+}
