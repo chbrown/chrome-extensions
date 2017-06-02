@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Tab Tools",
+  "version": "2.0",
+  "description": "Move current tab left (⌘⇧←), right (⌘⇧→), first (⌘⇧1), or last (⌘⇧9)",
+  "homepage_url": "https://github.com/chbrown/chrome-extensions",
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["<all_urls>"],
+    "run_at": "document_start"
+  }],
+  "permissions": []
+}
