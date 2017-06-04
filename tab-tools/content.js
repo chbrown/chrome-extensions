@@ -9,10 +9,10 @@ const code_to_message = {
 };
 
 document.addEventListener('keydown', e => {
-  const {metaKey, ctrlKey, code} = e;
+  const {altKey, ctrlKey, metaKey, shiftKey, code} = e;
   const message = code_to_message[code];
   // Command + Control + [ or ] or 0 or 9
-  if (metaKey && ctrlKey && message) {
+  if (!altKey && ctrlKey && metaKey && !shiftKey && message) {
     e.stopPropagation();
     e.preventDefault(); // presumably there is no default action
     chrome.extension.sendMessage(message);
