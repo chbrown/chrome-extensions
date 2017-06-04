@@ -8,7 +8,7 @@ Thanks, [Greg Bullock](http://bonstio.net/)!
 |:-------|:----------------------------------|:-------------------------|
 | ⌘ ⌃ [ | Command + Control + Left Bracket  | Move tab left             |
 | ⌘ ⌃ ] | Command + Control + Right Bracket | Move tab right            |
-| ⌘ ⌃ 1 | Command + Control + Digit 1       | Move tab to the far left  |
+| ⌘ ⌃ 0 | Command + Control + Digit 0       | Move tab to the far left  |
 | ⌘ ⌃ 9 | Command + Control + Digit 9       | Move tab to the far right |
 
 
