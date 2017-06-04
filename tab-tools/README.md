@@ -4,12 +4,12 @@ Roughly inspired by / loosed based on / vaguely forked from
 [Keyboard Shortcuts to Reorder Tabs](https://chrome.google.com/webstore/detail/moigagbiaanpboaflikhdhgdfiifdodd).
 Thanks, [Greg Bullock](http://bonstio.net/)!
 
-| Short  | Long                          | Result                   |
-|:-------|:------------------------------|:-------------------------|
-| ⌘ ⇧ ← | Command + Shift + Left Arrow  | Move tab left             |
-| ⌘ ⇧ → | Command + Shift + Right Arrow | Move tab right            |
-| ⌘ ⇧ 1 | Command + Shift + Digit 1     | Move tab to the far left  |
-| ⌘ ⇧ 9 | Command + Shift + Digit 9     | Move tab to the far right |
+| Short  | Long                              | Result                   |
+|:-------|:----------------------------------|:-------------------------|
+| ⌘ ⌃ [ | Command + Control + Left Bracket  | Move tab left             |
+| ⌘ ⌃ ] | Command + Control + Right Bracket | Move tab right            |
+| ⌘ ⌃ 1 | Command + Control + Digit 1       | Move tab to the far left  |
+| ⌘ ⌃ 9 | Command + Control + Digit 9       | Move tab to the far right |
 
 
 ## Overview
