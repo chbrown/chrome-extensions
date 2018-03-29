@@ -4,6 +4,11 @@
   "version": "2.1",
   "description": "Move current tab left (⌘⌃[), right (⌘⌃]), first (⌘⌃0), or last (⌘⌃9)",
   "homepage_url": "https://github.com/chbrown/chrome-extensions",
+  "icons": {
+    "128": "img/icon128.png",
+    "48": "img/icon48.png",
+    "16": "img/icon16.png"
+  },
   "background": {
     "persistent": false,
     "scripts": ["background.js"]
