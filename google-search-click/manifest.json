@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Google Search Click Protection",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Prevent Google from intercepting search result links and overwriting the href",
   "homepage_url": "https://github.com/chbrown/chrome-extensions",
   "icons": {
