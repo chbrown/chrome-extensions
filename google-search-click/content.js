@@ -1,7 +1,13 @@
 function initializeListeners() {
   let currentHref = null;
-  addEventListener('mousedown', ev => currentHref = ev.target.href, true);
-  addEventListener('mousedown', ev => ev.target.href = currentHref, false);
+  const storeTargetHref = ev => {
+    currentHref = ev.target.href;
+  };
+  const injectStoredHref = ev => {
+    ev.target.href = currentHref;
+  };
+  addEventListener('mousedown', storeTargetHref, true);
+  addEventListener('mousedown', injectStoredHref, false);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
