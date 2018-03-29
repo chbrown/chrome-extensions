@@ -6,15 +6,15 @@ const code_to_message = {
   BracketRight: 'MOVE_RIGHT',
   Digit0:       'MOVE_FIRST',
   Digit9:       'MOVE_LAST',
-};
+}
 
 document.addEventListener('keydown', e => {
-  const {altKey, ctrlKey, metaKey, shiftKey, code} = e;
-  const message = code_to_message[code];
+  const {altKey, ctrlKey, metaKey, shiftKey, code} = e
+  const message = code_to_message[code]
   // Command + Control + [ or ] or 0 or 9
   if (!altKey && ctrlKey && metaKey && !shiftKey && message) {
-    e.stopPropagation();
-    e.preventDefault(); // presumably there is no default action
-    chrome.extension.sendMessage(message);
+    e.stopPropagation()
+    e.preventDefault() // presumably there is no default action
+    chrome.extension.sendMessage(message)
   }
-}, true);
+}, true)
