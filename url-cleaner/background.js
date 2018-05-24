@@ -1,5 +1,5 @@
 /*globals chrome */
-const trackingTokenRegExp = /[\?\&]utm_(source|medium|term|campaign|content|cid|reader)=[^&#]+/ig
+const trackingTokenRegExp = /[\?\&]utm_\w+=[^&#]+/ig
 
 /**
 @param {number} tabId - Something like `2160`
