@@ -40,4 +40,5 @@ The Google Analytics query string parameters are documented [here](https://suppo
 
 ## License
 
-Copyright 2015-2016 Christopher Brown. [MIT Licensed](https://chbrown.github.io/licenses/MIT/#2015-2016).
+Copyright 2015-2018 Christopher Brown.
+[MIT Licensed](https://chbrown.github.io/licenses/MIT/#2015-2018).
